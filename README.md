@@ -1,4 +1,4 @@
-# Food_Ordering_App is android app.
+# Food_Ordering_App is an android app.
 It is created using Kotlin.
 It uses Volley Library to fetch and send data from api.
 It uses Picasso Library.
