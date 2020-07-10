@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodhunt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:resizeableActivity="false"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_main"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_app_main_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.example.foodhunt.activity.OTPActivity"
+            android:screenOrientation="fullSensor"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity android:name="com.example.foodhunt.activity.ForgotPasswordActivity"
+            android:screenOrientation="fullSensor"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name="com.example.foodhunt.activity.OrderPlacedActivity"
+            android:screenOrientation="fullSensor"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name="com.example.foodhunt.activity.CartActivity"
+            android:screenOrientation="fullSensor"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name="com.example.foodhunt.activity.RestaurantDetailsActivity"
+            android:screenOrientation="fullSensor"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name="com.example.foodhunt.activity.RegisterActivity"
+            android:screenOrientation="fullSensor"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name="com.example.foodhunt.activity.LoginActivity"
+            android:screenOrientation="fullSensor"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name="com.example.foodhunt.activity.WelcomeActivity"
+            android:screenOrientation="fullSensor"
+            android:configChanges="orientation|screenSize"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.foodhunt.activity.MainActivity"
+            android:screenOrientation="fullSensor"
+            android:configChanges="orientation|screenSize"/>
+    </application>
+
+</manifest>

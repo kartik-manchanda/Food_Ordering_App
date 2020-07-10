@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Food Hunt</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favourite_restaurants">Favourite Restaurants</string>
+    <string name="order_history">Order History</string>
+    <string name="faqs">FAQs</string>
+    <string name="logout">Logout</string>
+    <string name="open_drwaer">Open Drawer</string>
+    <string name="close_drwaer">Close Drawer</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="register"><u>Don\'t have an account? Sign up now</u></string>
+    <string name="preferences_file_name">User Details</string>
+
+    <string name="question1">Q1. Why is Food Runner doing this?</string>
+    <string name="answer1">A1. At Food Runner we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material. Food Runner Packaging Assist is to take care of all your packaging needs.</string>
+    <string name="question2">Q2. How are you guys are different?</string>
+    <string name="answer2">A2. Best products - We only list the products which have passed our tests and are the best suitable for delivery. They will help in giving a better consumer experience, so you can get get repeated orders. Best prices - We have negotiated rates with our distributors exclusive for Food Runner Restaurant. Convenience - No need to haggle for prices. No need to follow-up on delivery. We track all orders to ensure you have a hassle free experience.</string>
+    <string name="question3">Q3. Why is Food Runner doing this?</string>
+    <string name="answer3">A3. At Food Runner we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material. Food Runner Packaging Assist is to take care of all your packaging needs.</string>
+    <string name="question4">Q4. How are you guys are different?</string>
+    <string name="answer4">A4. Best products - We only list the products which have passed our tests and are the best suitable for delivery. They will help in giving a better consumer experience, so you can get get repeated orders. Best prices - We have negotiated rates with our distributors exclusive for Food Runner Restaurant. Convenience - No need to haggle for prices. No need to follow-up on delivery. We track all orders to ensure you have a hassle free experience.</string>
+</resources>
